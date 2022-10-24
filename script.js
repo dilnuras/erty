@@ -1,6 +1,5 @@
-/* Создать переменную num
- */
-const numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
+"use strict";
+/*const numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -18,4 +17,31 @@ const a = prompt('Один из просмотренных фильмов?', "")
 personalMovieDB.movies [a] = b;
 personalMovieDB.movies [c] = d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB);*/
+
+// if (4==9) {
+//     console.log("ok!");
+// } else {
+//     console.log("error");
+// }
+
+const num = 50;
+switch (num) {
+    case 49: 
+    console.log('Неверно');
+    break;
+
+    case 100:
+        console.log('Неверно');
+    break;
+
+    case 50: 
+    console.log('Verno');
+    break;
+
+    default: 
+    console.log('v drugoy raz');
+    break;
+
+
+}
